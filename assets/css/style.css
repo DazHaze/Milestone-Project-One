@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1, h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+header{
+    background-color: slategrey;
+    height: 75px;
+    width: 100%;
+}
+
+#logo{
+    float: left;
+    font-size: 200%;
+    margin-left: 30px;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+    color: white;
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 3px solid white;
+}
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: slategrey;
+    position: relative;
+    bottom: 112.5px;
+    margin: 0 auto;
+    border: 5px solid white;
+}
