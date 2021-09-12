@@ -6,6 +6,13 @@
     border: none;
 }
 
+hr{
+    border-top: 1px solid black;
+    width: 33%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
 p{
     font-family: Roboto, sans-serif;
     font-size: 12px;
@@ -93,8 +100,7 @@ header{
 }
 
 #about-container{
-    background-color: yellowgreen;
-    height: 525px;
+    height: 500px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -198,13 +204,22 @@ footer{
 
 #couple-photo{
     width: 50%;
-    height: 500;
     margin: 0 auto;
 }
 
 #couple-photo-img{
     object-fit: contain;
     max-width: 100%;
+}
+
+#greenhouse-photo{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#greenhouse-photo-img{
+object-fit: contain;
+max-width: 100%;
 }
 
 footer{
@@ -224,4 +239,34 @@ footer{
     width: 50%;
     height: 100%;
     float: right;
+}
+
+#left-quote{
+    float: left;
+    width: 33%;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+#right-quote{
+    float: right;
+    width: 33%;
+    padding-top: 50px;
+    padding-right: 50px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.about-text > p{
+    text-align: center;
+    color: slategrey;
+}
+
+.about-text{
+    width: 33%;
+    margin: 0 auto;
 }
