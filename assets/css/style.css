@@ -6,11 +6,20 @@
     border: none;
 }
 
+p{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
 h1, h2{
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: white;
+}
+
+h3{
+    font-family: Poppins, sans-serif;
 }
 
 header{
@@ -51,25 +60,21 @@ header{
 }
 
 #circle-container{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-color: slategrey;
     position: relative;
-    bottom: 112.5px;
+    bottom: 0;
     margin: 0 auto;
     border: 5px solid white;
 }
 
 #circle-cover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-color: slategrey;
-    /* position: relative; */
-    /* bottom: 112.5px; */
-    /* margin: 0 auto; */
-    /* border: 5px solid white; */
     background: url('../images/Plants-background.png') no-repeat center center;
 }
 
@@ -77,4 +82,105 @@ header{
     background: url('../images/farmpeople-logo.png') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+#about-background{
+    background-color: beige;
+    height: 700px;
+    width: 100%;
+}
+
+#recipe-ofd-background{
+    background-color: burlywood;
+    height: 700px;
+    width: 100%;
+}
+
+footer{
+    background-color: slategrey;
+    height: 75px;
+    width: 100%;
+}
+
+#social-media{
+    width: auto;
+    height: auto;
+
+    padding: 10px;
+
+    background-color:white;
+
+    bottom: 100px;
+    right: 10px;
+
+    position: fixed;
+
+    border-radius: 10px;
+}
+
+.social-networks{
+    text-align: center;
+    list-style-type: none;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#recipe-ofd{
+    background-color: white;
+    width: 33%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 30px;
+}
+
+#recipe-ofd > ul{
+    text-align: justify;
+    list-style-position: inside;
+    padding-left: 20px;
+    
+}
+
+#recipe-ofd-img{
+    background-image: url('../images/recipe-img.jpg');
+    height: 200px;
+    width: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#recipe-ofd-heading{
+    background-color:rgba( 0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#recipe-ofd-heading > h2{
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+#go-to-recipe-button{
+    background-color: slategrey;
+    color: white;
+    padding:5px;
+    border-radius: 5px;
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+#go-to-recipe-button:hover{
+    background-color: rgba(222, 184, 135, 0.6);
 }
