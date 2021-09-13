@@ -11,10 +11,10 @@ Users of this website will be able to see delicious recipes that are tailored to
 All code was tested through these trusted validators and returned no errors.
 
 <h3>- HTML</h3>
-![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
 <h3>CSS</h3>
-![Jigsaw-validator](https://jigsaw.w3.org/css-validator/validator)
+[Jigsaw-validator](https://jigsaw.w3.org/css-validator/validator)
 
 <h2>Features</h2>
 
