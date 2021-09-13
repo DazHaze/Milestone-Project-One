@@ -275,6 +275,12 @@ footer {
 
 /* Recipes */
 
+#recipes-container{
+    height: 2000px; 
+    background-color: beige; 
+    position: relative;
+}
+
 #full-rotd-container {
     height: 400px;
     width: 100%;
@@ -335,6 +341,117 @@ footer {
     color: white;
 }
 
+#recipe-cards{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 600px;
+}
+
+/* Recipe Cards */
+
+#recipe-one{
+    background-image: url('../images/recipes/pasta-recipe.png');
+    width: 45%;
+    height: 500px;
+    border: solid 10px white;
+    float: left;
+}
+
+#recipe-one > div{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-one > div:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-one > div > h2{
+    text-align: center;
+    padding-top: 200px;
+}
+
+#recipe-two{
+    background-image: url('../images/recipes/recipe-2.png');
+    width: 45%;
+    height: 500px;
+    border: solid 10px white;
+    float: right;
+}
+
+#recipe-two > div{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-two > div:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-two > div > h2{
+    text-align: center;
+    padding-top: 200px;
+}
+
+#recipe-three{
+    background-image: url('../images/recipes/recipe-3.png');
+    width: 45%;
+    height: 500px;
+    border: solid 10px white;
+    float: left;
+}
+
+#recipe-three > div{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-three > div:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-three > div > h2{
+    text-align: center;
+    padding-top: 200px;
+}
+
+#recipe-four{
+    background-image: url('../images/recipes/recipe-4.png');
+    width: 45%;
+    height: 500px;
+    border: solid 10px white;
+    float: right;
+}
+
+#recipe-four > div{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-four > div:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-four > div > h2{
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+
 /* Media Queries */
 @media screen and (max-width: 1200px){
 
@@ -382,6 +499,34 @@ footer {
 
     #about-container{
         bottom: 500px;
+    }
+
+    #full-rotd-container{
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+
+    #full-rotd-photo{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #rotd-ingredients{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #rotd-method{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #full-rotd-container{
+        height: 1000px;
+        top: 150px;
     }
 
 }
