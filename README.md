@@ -1,5 +1,7 @@
 <h1>Welcome!</h1>
 
+Website - https://dazhaze.github.io/Milestone-Project-One/index.html
+
 Welcome to my first milestone project for Code Institute. This website aims to tell you a little about a small farm started by two people in the republic of ireland.
 
 Users of this website will be able to see delicious recipes that are tailored to food items that the farm can offer. A recipe of the day will show the user what the people of farm people are cooking for the day.
