@@ -505,6 +505,39 @@ footer {
         height: 500px;
     }
 
+    #recipe-cards{
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        top: 1200px;
+    }
+
+    #recipe-one{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #recipe-two{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #recipe-three{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #recipe-four{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #recipes-container{
+        height: 3500px; 
+        background-color: beige; 
+        position: relative;
+    }
+
 }
 
 @media screen and (max-width: 900px){
