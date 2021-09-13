@@ -95,7 +95,7 @@ header {
 
 #about-background {
     background-color: beige;
-    height: 700px;
+    height: 900px;
     width: 100%;
     position: relative;
     z-index: -1;
@@ -105,7 +105,7 @@ header {
     height: 500px;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 100px;
 
 }
 
@@ -322,7 +322,6 @@ footer {
 }
 
 #rotd-ingredients{
-    /* position: relative; */
     float: right;
     width: 33%;
     padding-left: 2rem;
@@ -334,4 +333,55 @@ footer {
 
 #rotd-ingredients h3{
     color: white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px){
+
+    #circle-container{
+        display: none;
+    }
+
+    header{
+        height: 150px;
+    }
+
+    #left-quote {
+        margin: 0 auto;
+        width: 80%;
+        padding: 50px 50px 0 50px;
+        color: slategrey;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    #right-quote {
+        margin: 0 auto;
+        width: 80%;
+        padding: 50px 50px 0 50px;
+        color: slategrey;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    #left-section {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    #right-section {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    #about-background{
+        height: 1400px;
+    }
+
+    #about-container{
+        bottom: 500px;
+    }
+
 }
