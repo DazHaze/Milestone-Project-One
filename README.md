@@ -1,10 +1,10 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome DazHaze,
+Welcome to my first milestone project for Code Institute. This website aims to tell you a little about a small farm started by two people in the republic of ireland.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this website will be able to see delicious recipes that are tailored to food items that the farm can offer. A recipe of the day will show the user what the people of farm people are cooking for the day.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Am-I-Responsive-Image](https://github.com/dazhaze/Milestone-Project-One/blob/main/assets/images/am-i-responsive.png?raw=true)
 
 ## Gitpod Reminders
 
