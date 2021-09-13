@@ -34,6 +34,8 @@ Next I would like to add in seperate pages for each recipe when the user clicks 
 
 Instead of hiding the circle logo on smaller devices I would like to figure out a way to show it through more testing.
 
+I would also like to add a newsletter section so the user has the option to sign up to the farm people newsletter via email. This would lead to the user receiving updates about what is available from the farm each week.
+
 <h2>User testing</h2>
 
 This website has been tested on devices of different sizes (ipad air, mobile phones and desktop monitors).
