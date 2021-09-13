@@ -140,6 +140,7 @@ footer {
 .social-networks {
     text-align: center;
     list-style-type: none;
+    z-index: 8000;
 }
 
 .social-networks i {
