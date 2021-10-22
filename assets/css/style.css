@@ -15,7 +15,7 @@ hr {
 
 p {
     font-family: Roboto, sans-serif;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 h1,
@@ -48,6 +48,8 @@ header {
     color: white;
 }
 
+
+
 #menu,
 #logo {
     line-height: 75px;
@@ -62,10 +64,17 @@ header {
 #menu a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 #menu a:hover {
     border-bottom: 3px solid white;
+}
+
+.active{
+    text-decoration: underline !important;
+    font-size: 2rem !important;
+    color: inherit !important;
 }
 
 #circle-container {
@@ -152,7 +161,7 @@ footer {
 
 #recipe-ofd {
     background-color: white;
-    width: 33%;
+    width: 80%;
     height: 500px;
     margin: 0 auto;
     position: relative;
@@ -160,13 +169,19 @@ footer {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     border-radius: 30px;
+    overflow: hidden;
 }
 
 #recipe-ofd>ul {
     text-align: justify;
     list-style-position: inside;
-    padding-left: 20px;
+    text-align: center;
 
+
+}
+
+#recipe-ofd>h3{
+    text-align: center;
 }
 
 #recipe-ofd-img {
@@ -197,8 +212,13 @@ footer {
     color: white;
     padding: 5px;
     border-radius: 5px;
-    margin-left: 70%;
-    margin-top: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    
 }
 
 #go-to-recipe-button:hover {
@@ -255,13 +275,13 @@ footer {
 }
 
 #right-quote {
-    float: right;
-    width: 33%;
     padding-top: 50px;
-    padding-right: 50px;
+    float: right;
+    width: 20%;
     color: slategrey;
     text-transform: uppercase;
     font-size: 1rem;
+    padding-left: 300px;
 }
 
 .about-text>p {
@@ -276,17 +296,10 @@ footer {
 
 /* Recipes */
 
-#recipes-container{
-    height: 2000px; 
-    background-color: beige; 
-    position: relative;
-}
-
 #full-rotd-container {
-    height: 400px;
+    height: auto;
     width: 100%;
     background-color: burlywood;
-    position: absolute;
     top: 75px;
 }
 
@@ -343,114 +356,52 @@ footer {
 }
 
 #recipe-cards{
-    height: 100px;
+    height: auto;
     width: 100%;
-    position: absolute;
-    top: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 50px;
+    justify-items: center;
 }
 
 /* Recipe Cards */
 
-#recipe-one{
-    background-image: url('../images/recipes/pasta-recipe.png');
-    width: 45%;
+.recipe-card{
+    width: 500px;
     height: 500px;
-    border: solid 10px white;
-    float: left;
+    border: solid 10px black;
+    background-color: salmon;
 }
 
-#recipe-one > div{
+.recipe-card > div{
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
 }
 
-#recipe-one > div:hover{
+.recipe-card > div:hover{
     background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;
 }
 
-#recipe-one > div > h2{
+.recipe-card > div > h2{
     text-align: center;
     padding-top: 200px;
 }
 
+#recipe-one{
+    background-image: url('/assets/images/recipes/pasta-recipe.png');
+}
 #recipe-two{
     background-image: url('../images/recipes/recipe-2.png');
-    width: 45%;
-    height: 500px;
-    border: solid 10px white;
-    float: right;
-}
-
-#recipe-two > div{
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-}
-
-#recipe-two > div:hover{
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;
-}
-
-#recipe-two > div > h2{
-    text-align: center;
-    padding-top: 200px;
 }
 
 #recipe-three{
     background-image: url('../images/recipes/recipe-3.png');
-    width: 45%;
-    height: 500px;
-    border: solid 10px white;
-    float: left;
-}
-
-#recipe-three > div{
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-}
-
-#recipe-three > div:hover{
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;
-}
-
-#recipe-three > div > h2{
-    text-align: center;
-    padding-top: 200px;
 }
 
 #recipe-four{
     background-image: url('../images/recipes/recipe-4.png');
-    width: 45%;
-    height: 500px;
-    border: solid 10px white;
-    float: right;
 }
-
-#recipe-four > div{
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-}
-
-#recipe-four > div:hover{
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;
-}
-
-#recipe-four > div > h2{
-    text-align: center;
-    padding-top: 200px;
-}
-
 
 
 /* Media Queries */
