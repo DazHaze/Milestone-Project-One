@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm People</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Farm People</h1>
+        </a>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a class = "nav-link-active" href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="recipes.html">Recipes</a>
+                </li>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="circle-container">
+            <div id="circle-cover">
+                <div id="circle-cover-bg"></div>
+            </div>
+
+        </div>
+
+    </header>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required class="text-input">
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required class="text-input">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required class="text-input">
+            
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's Run!">
+        </form>
+    </section>
+    <footer>
+        <p>Copyright Darragh Hayes 2021 <i class="far fa-copyright"></i></p>
+    </footer>
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

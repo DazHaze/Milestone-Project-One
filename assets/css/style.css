@@ -1,517 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Mukta:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-hr {
-    border-top: 1px solid black;
-    width: 33%;
-    margin: 0 auto;
-    padding-bottom: 10px;
+p{
+    font-family: 'Mukta', sans-serif;
 }
 
-p {
-    font-family: Roboto, sans-serif;
-    font-size: 1.2rem;
+h2, h1, h3{
+    font-family: 'Mukta', sans-serif;
 }
 
-h1,
-h2 {
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: white;
-}
-
-h3 {
-    font-family: Poppins, sans-serif;
-}
-
-header {
-    background-color: slategrey;
-    height: 75px;
-    width: 100%;
-}
-
-#logo {
-    float: left;
-    font-size: 200%;
-    margin-left: 30px;
-}
-
-#menu {
-    font-size: 150%;
-    letter-spacing: 4px;
-    color: white;
-}
-
-
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-}
-
-#menu a:hover {
-    border-bottom: 3px solid white;
-}
-
-.active{
-    text-decoration: underline !important;
-    font-size: 2rem !important;
-    color: inherit !important;
-}
-
-#circle-container {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: slategrey;
-    position: relative;
-    bottom: 0;
-    margin: 0 auto;
-    border: 5px solid white;
-}
-
-#circle-cover {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: slategrey;
-    background: url('../images/Plants-background.png') no-repeat center center;
-}
-
-#circle-cover-bg {
-    background: url('../images/farmpeople-logo.png') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#about-background {
-    background-color: beige;
-    height: 900px;
-    width: 100%;
-    position: relative;
-    z-index: -1;
-}
-
-#about-container {
-    height: 500px;
-    width: 100%;
-    position: absolute;
-    bottom: 100px;
-
-}
-
-#recipe-ofd-background {
-    background-color: burlywood;
-    height: 700px;
-    width: 100%;
-}
-
-footer {
-    background-color: slategrey;
-    height: 75px;
-    width: 100%;
-}
-
-#social-media {
-    width: auto;
-    height: auto;
-
-    padding: 10px;
-
-    background-color: white;
-
-    bottom: 100px;
-    right: 10px;
-
-    position: fixed;
-
-    border-radius: 10px;
-}
-
-.social-networks {
-    text-align: center;
-    list-style-type: none;
-    z-index: 8000;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
-#recipe-ofd {
-    background-color: white;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-}
-
-#recipe-ofd>ul {
-    text-align: justify;
-    list-style-position: inside;
-    text-align: center;
-
-
-}
-
-#recipe-ofd>h3{
-    text-align: center;
-}
-
-#recipe-ofd-img {
-    background-image: url('../images/recipe-img.jpg');
-    height: 200px;
-    width: auto;
-}
-
-#recipe-ofd-heading {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100%;
-    width: 100%;
-}
-
-#recipe-ofd-heading>h2 {
-    letter-spacing: 4px;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 50px;
-}
-
-#go-to-recipe-button {
-    background-color: slategrey;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    margin-top: 20px;
-    cursor: pointer;
-    
-}
-
-#go-to-recipe-button:hover {
-    background-color: rgba(222, 184, 135, 0.6);
-}
-
-#couple-photo {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#couple-photo-img {
-    object-fit: contain;
-    max-width: 100%;
-}
-
-#greenhouse-photo {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#greenhouse-photo-img {
-    object-fit: contain;
-    max-width: 100%;
-}
-
-footer {
-    text-align: center;
-    color: white;
-    font-size: 1.5rem;
-    padding-top: 75px;
-}
-
-#left-section {
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-#right-section {
-    width: 50%;
-    height: 100%;
-    float: right;
-}
-
-#left-quote {
-    float: left;
-    width: 33%;
-    padding-top: 50px;
-    padding-left: 50px;
-    color: slategrey;
-    text-transform: uppercase;
-    font-size: 1rem;
-}
-
-#right-quote {
-    padding-top: 50px;
-    float: right;
-    width: 20%;
-    color: slategrey;
-    text-transform: uppercase;
-    font-size: 1rem;
-    padding-left: 300px;
-}
-
-.about-text>p {
-    text-align: center;
-    color: slategrey;
-}
-
-.about-text {
-    width: 33%;
-    margin: 0 auto;
-}
-
-/* Recipes */
-
-#full-rotd-container {
-    height: auto;
-    width: 100%;
-    background-color: burlywood;
-    top: 75px;
-}
-
-#full-rotd-container>h2 {
-    padding-left: 30px;
-    padding-top: 30px;
-    color: white;
-    text-decoration: underline solid 1px white;
-}
-
-#full-rotd-photo {
-    width: 250px;
-    padding-left: 30px;
-    float: left;
-    padding-top: 30px;
-
-}
-
-#full-rotd-img {
-    object-fit: contain;
-    max-width: 100%;
-    border: 2px solid white;
-}
-
-#rotd-method {
-    margin: 0 auto;
-    width: 33%;
-}
-
-#rotd-method p {
-    color: white;
-}
-
-#rotd-method li {
-    color: white;
-}
-
-#rotd-method>h3 {
-    color: white;
-}
-
-#rotd-ingredients{
-    float: right;
-    width: 33%;
+.nav-logo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: 2rem;
 }
 
-#rotd-ingredients li{
-    color: white;
-}
-
-#rotd-ingredients h3{
-    color: white;
-}
-
-#recipe-cards{
+.nav-bar {
+    display: flex;
+    background-color:white;
     height: auto;
     width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 50px;
-    justify-items: center;
-    margin:0;
-    background-color: slategrey;
+    justify-content: space-between;
 }
 
-#recipe-cards > h2{
-    grid-column: 1 / -1;
-    color: white !important;
-    padding-top: 20px;
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-top: 2rem;
 }
 
-/* Recipe Cards */
-
-.recipe-card{
-    width: 500px;
-    height: 500px;
-    border: solid 10px white;
+.nav-links a {
+    padding-right: 2rem;
+    text-decoration: none;
+    color: black;
 }
 
-.recipe-card > div{
-    background-color: rgba(0, 0, 0, 0.6);
+/* Image Section */
+.image-outer {
+    height: 800px;
     width: 100%;
-    height: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-.recipe-card > div:hover{
-    background-color: rgba(0, 0, 0, 0.8);
+.image-main {
+    height: 800px;
+    width: 100%;
+    background: url('../images/Farm.jpeg') no-repeat center center;
+    filter: brightness(70%);
 }
 
-.recipe-card > div > h2{
+.image-text {
+    font-size: 130%;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    background: url('../images/farmpeople-logo.png') no-repeat center center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 35%;
+    z-index: 10;
+    position: absolute;
+}
+
+.image-text h2{
+    top: -20%;
+    position: absolute;
+    left: 15%;
+    color: white;
+    width: 100%;
+}
+
+.image-text h3{
+    bottom: -20%;
+    position: absolute;
+    color: white;
+    width: 100%;
+}
+
+/* Image descriptions section */
+.image-descriptions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.desc-sections{
+    display: flex;
+    width: 100%;
+}
+
+#strawberry-image{
+    height: 300px;
+    width: 50%;
+    margin: 2rem;
+    background: url('../images/strawberry.jpeg') no-repeat center center;
+    float: right;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+#egg-image{
+    height: 300px;
+    width: 50%;
+    margin: 2rem;
+    background: url('../images/egg.jpeg') no-repeat center center;
+    float: right;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+#chicken-image{
+    height: 300px;
+    width: 50%;
+    margin: 2rem;
+    background: url('../images/chicken.jpeg') no-repeat center center;
+    float: right;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+#desc-description{
+    margin: 2rem;
+    width: 50%;
+}
+
+/*  Instagram Section */
+.insta-section{
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+footer{
+    width: 100%;
     text-align: center;
-    padding-top: 200px;
 }
 
-#recipe-one{
-    background-image: url('/assets/images/recipes/pasta-recipe.png');
-}
-#recipe-two{
-    background-image: url('../images/recipes/recipe-2.png');
-}
-
-#recipe-three{
-    background-image: url('../images/recipes/recipe-3.png');
-}
-
-#recipe-four{
-    background-image: url('../images/recipes/recipe-4.png');
-}
-
-
-/* Media Queries */
-@media screen and (max-width: 1200px){
-
-    #circle-container{
-        display: none;
-    }
-
-    header{
-        height: 150px;
-    }
-
-    #left-quote {
-        margin: 0 auto;
-        width: 80%;
-        padding: 50px 50px 0 50px;
-        color: slategrey;
-        text-transform: uppercase;
-        font-size: 1rem;
-    }
-
-    #right-quote {
-        margin: 0 auto;
-        width: 80%;
-        padding: 50px 50px 0 50px;
-        color: slategrey;
-        text-transform: uppercase;
-        font-size: 1rem;
-    }
-
-    #left-section {
-        width: 80%;
-        height: 100%;
-        margin: 0 auto;
-    }
-
-    #right-section {
-        width: 80%;
-        height: 100%;
-        margin: 0 auto;
-    }
-
-    #about-background{
-        height: 1400px;
-    }
-
-    #about-container{
-        bottom: 500px;
-    }
-
-    #full-rotd-container{
-        height: 500px;
-    }
-
-    #recipe-cards{
-        grid-template-columns: 100%;
-    }
-
-    #recipe-one{
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #recipe-two{
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #recipe-three{
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #recipe-four{
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #recipes-container{
-        height: 3500px; 
-        background-color: beige; 
-        position: relative;
-    }
-
-}
-
-@media screen and (max-width: 1000px){
-
-    #full-rotd-photo{
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #rotd-ingredients{
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #rotd-method{
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #full-rotd-container{
-        min-height: 1500px;
-        top: 150px;
-
-    }
-
+footer > p {
+    padding: 3rem;
 }
