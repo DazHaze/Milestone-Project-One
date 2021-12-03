@@ -100,7 +100,6 @@ h2, h1, h3{
     margin: 2rem;
     background: url('../images/strawberry.jpeg') no-repeat center center;
     float: right;
-    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
@@ -110,7 +109,6 @@ h2, h1, h3{
     margin: 2rem;
     background: url('../images/egg.jpeg') no-repeat center center;
     float: right;
-    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
@@ -120,7 +118,6 @@ h2, h1, h3{
     margin: 2rem;
     background: url('../images/chicken.jpeg') no-repeat center center;
     float: right;
-    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
@@ -144,3 +141,40 @@ footer{
 footer > p {
     padding: 3rem;
 }
+
+/*  About Sections */
+.about-sections{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-span{
+    width: 100%;
+    display: flex;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.image-container{
+    max-width: 50%;
+    height: 400px;
+    padding: 5rem;
+}
+
+.about-description{
+    width: 50%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 2rem;
+  }
