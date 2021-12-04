@@ -153,6 +153,7 @@ footer > p {
 .about-span{
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 .image-container img{
@@ -177,4 +178,10 @@ footer > p {
     align-items: center;
     height: 400px;
     padding: 2rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    div:nth-of-type(2).about-span{
+        flex-direction: column-reverse;
+    }
   }
