@@ -20,6 +20,7 @@ h3 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 2rem;
+    font-size: 3rem;
 }
 
 .nav-bar {
@@ -33,7 +34,7 @@ h3 {
 .nav-links {
     display: flex;
     list-style: none;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
 }
 
 .nav-links a {
@@ -254,6 +255,15 @@ footer>p {
     .nav-bar{
         flex-direction: column;
         padding-bottom: 20px;
+    }
+
+    .nav-bar li {
         padding-left: 20px;
+    }
+
+    .nav-logo{
+        background-image: url("../images/clouds.jpg");
+        z-index: 10;
+        color: black;
     }
 }
