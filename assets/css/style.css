@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Mukta:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-p{
+p {
     font-family: 'Mukta', sans-serif;
 }
 
-h2, h1, h3{
+h2,
+h1,
+h3 {
     font-family: 'Mukta', sans-serif;
 }
 
@@ -21,7 +24,7 @@ h2, h1, h3{
 
 .nav-bar {
     display: flex;
-    background-color:white;
+    background-color: white;
     height: auto;
     width: 100%;
     justify-content: space-between;
@@ -67,7 +70,7 @@ h2, h1, h3{
     position: absolute;
 }
 
-.image-text h2{
+.image-text h2 {
     top: -20%;
     position: absolute;
     left: 15%;
@@ -75,7 +78,7 @@ h2, h1, h3{
     width: 100%;
 }
 
-.image-text h3{
+.image-text h3 {
     bottom: -20%;
     position: absolute;
     color: white;
@@ -83,18 +86,18 @@ h2, h1, h3{
 }
 
 /* Image descriptions section */
-.image-descriptions{
+.image-descriptions {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.desc-sections{
+.desc-sections {
     display: flex;
     width: 100%;
 }
 
-#strawberry-image{
+#strawberry-image {
     height: 300px;
     width: 50%;
     margin: 2rem;
@@ -103,7 +106,7 @@ h2, h1, h3{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-#egg-image{
+#egg-image {
     height: 300px;
     width: 50%;
     margin: 2rem;
@@ -112,7 +115,7 @@ h2, h1, h3{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-#chicken-image{
+#chicken-image {
     height: 300px;
     width: 50%;
     margin: 2rem;
@@ -121,53 +124,53 @@ h2, h1, h3{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-#desc-description{
+#desc-description {
     margin: 2rem;
     width: 50%;
 }
 
 /*  Instagram Section */
-.insta-section{
+.insta-section {
     display: flex;
     justify-content: center;
 }
 
 /* Footer */
-footer{
+footer {
     width: 100%;
     text-align: center;
 }
 
-footer > p {
+footer>p {
     padding: 3rem;
 }
 
 /*  About Sections */
-.about-sections{
+.about-sections {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
 }
 
-.about-span{
+.about-span {
     width: 100%;
     display: flex;
 }
 
-.image-container img{
+.image-container img {
     width: 100%;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-.image-container{
+.image-container {
     max-width: 50%;
     height: 400px;
     padding: 5rem;
 }
 
-.about-description{
+.about-description {
     width: 50%;
 }
 
@@ -177,22 +180,80 @@ footer > p {
     align-items: center;
     height: 400px;
     padding: 2rem;
-  }
+}
+/*  Contact Section */
+.contact-section {
+    clear: left;
+    background: url("../images/Farm.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    position: relative;
+}
 
-  @media only screen and (max-width: 800px) {
-    div:nth-of-type(2).about-span{
+.contact-form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 27%;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.contact-form label{
+    color: white;
+    padding-bottom: 1rem;
+    padding-top:0.5rem;
+}
+
+.contact-form input{
+    background-color:rgba(240,255,240, 0.6);
+    border-radius: 5px;
+}
+
+.contact-form input:nth-child(8){
+    background-color: rgba(240,255,240, 0.9) !important;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.contact-form input:nth-child(8):hover{
+    background-color: rgba(240,255,240) !important;
+}
+
+.contact-form > h2{
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+    div:nth-of-type(2).about-span {
         flex-direction: column-reverse;
     }
-    .about-span{
+
+    .about-span {
         flex-direction: column;
     }
 
-    .image-container{
+    .image-container {
         height: 600px;
         max-width: 100%;
     }
 
-    .about-description{
+    .about-description {
         width: 100%;
     }
-  }
+
+    .nav-bar{
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+}
