@@ -23,6 +23,10 @@ h3 {
     color: coral;
 }
 
+.image-descriptions>h2{
+    text-align: center;
+}
+
 .nav-logo {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -140,7 +144,9 @@ h3 {
 /*  Instagram Section */
 .insta-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
