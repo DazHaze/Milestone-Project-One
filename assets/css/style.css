@@ -435,5 +435,9 @@ footer>p {
         padding-top: 0;
     }
 
+    footer{
+        flex-direction: column;
+    }
+
 
 }
