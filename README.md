@@ -22,11 +22,9 @@ This Website is created as a base for a fully functioning website.
 * Landing Page
   * The landing page clearly shows what the website is for and guides the user to social media.
 
-![User Input Validation](images/user-input-validation.png)
+![Instagram-main-page](https://raw.githubusercontent.com/DazHaze/Milestone-Project-One/main/assets/images/redo-readme/instagram-main-page.png)
 
-* Play against computer
-* Accepts user input
-* Maintains scores
+* Social media links are also clear on the footer
 
 ![Mainaining Scores](images/maintaining-scores.png)
 
