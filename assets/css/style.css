@@ -105,28 +105,25 @@ h3 {
     width: 100%;
 }
 
-#strawberry-image {
+.desc-image{
     height: 300px;
     width: 50%;
     margin: 2rem;
+}
+
+#strawberry-image {
     background: url('../images/strawberry.jpeg') no-repeat center center;
     float: right;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 #egg-image {
-    height: 300px;
-    width: 50%;
-    margin: 2rem;
     background: url('../images/egg.jpeg') no-repeat center center;
     float: right;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 #chicken-image {
-    height: 300px;
-    width: 50%;
-    margin: 2rem;
     background: url('../images/chicken.jpeg') no-repeat center center;
     float: right;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -186,9 +183,14 @@ footer>p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    padding: 2rem;
+    /* padding: 1rem; */
+    margin-top: 3rem;
+    padding-top: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
 }
+
 /*  Contact Section */
 .contact-section {
     clear: left;
@@ -362,4 +364,37 @@ footer>p {
         flex-direction: column;
         align-items: center;
     }
+
+    .desc-sections{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc-description{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .desc-sections:nth-of-type(2){
+        flex-direction: column-reverse;
+    }
+
+    .desc-image{
+        width: 80%;
+    }
+
+    .image-container {
+        max-width: 100%;
+        height: 300px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .center{
+        padding-top: 0;
+        padding: 0 1rem;
+    }
+
+
 }
