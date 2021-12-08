@@ -24,11 +24,17 @@ This Website is created as a base for a fully functioning website.
 
 ![Instagram-main-page](https://raw.githubusercontent.com/DazHaze/Milestone-Project-One/main/assets/images/redo-readme/instagram-main-page.png)
 
+----
+
 * Social media links are also clear on the footer
 
-![Mainaining Scores](images/maintaining-scores.png)
+----
 
-* Computer thinking animation to give user the feeling of playing against a real player.
+![recipe-page-cards](https://raw.githubusercontent.com/DazHaze/Milestone-Project-One/main/assets/images/redo-readme/recipe-page-cards.png)
+
+----
+
+* The recipe page cards are sorted automatically for responsivness using css grid templates. This proved to be a powerful way of adding responsive grids without using multiple media queries!
 
 ![Computer Thinking Animation](images/computer-thinking-animation.png)
 
