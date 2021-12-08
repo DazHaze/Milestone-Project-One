@@ -16,6 +16,13 @@ h3 {
     font-family: 'Mukta', sans-serif;
 }
 
+.main-page-quote{
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    color: coral;
+}
+
 .nav-logo {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -233,6 +240,73 @@ footer>p {
     color: white;
 }
 
+.full-rotd-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.full-rotd-container img{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin: 20px;
+}
+
+#rotd-ingredients{
+    font-style: italic;
+}
+
+#rotd-method{
+    padding: 40px;
+}
+
+/* Recipe Cards */
+/*  Recipe Section */
+#recipe-cards{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+#recipe-section-heading{
+    width: 100%;
+    text-align: center;
+}
+
+.recipe-card{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.recipe-card > div{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.recipe-card h2{
+    color: white;
+}
+
+#recipe-one{
+    background-image: url("/assets/images/recipes/pasta-recipe.png");
+}
+
+#recipe-two{
+    background-image: url("/assets/images/recipes/recipe-2.png");
+}
+
+#recipe-three{
+    background-image: url("/assets/images/recipes/recipe-3.png");
+}
+
+#recipe-four{
+    background-image: url("/assets/images/recipes/recipe-4.png");
+}
 
 @media only screen and (max-width: 800px) {
     div:nth-of-type(2).about-span {
@@ -265,5 +339,27 @@ footer>p {
         background-image: url("../images/clouds.jpg");
         z-index: 10;
         color: black;
+    }
+
+    .contact-form{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 5%;
+        margin: 0;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 80%;
+        border-radius: 20px;
+        padding: 20px;
+        align-items: center;
+    }
+
+    #recipe-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
