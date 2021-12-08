@@ -146,11 +146,32 @@ h3 {
 /* Footer */
 footer {
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#social-media ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#social-media{
+    flex-grow: 1;
+}
+
+.social-networks li{
+    padding: 1rem 1rem;
+    list-style: none;
+}
+
+.social-networks i{
+    color: black;
+    font-size: 3rem;
 }
 
 footer>p {
-    padding: 3rem;
+    padding-right: 20px;
+    padding-top: 1rem;
 }
 
 /*  About Sections */
