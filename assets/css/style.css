@@ -188,6 +188,10 @@ footer>p {
     flex-direction: column;
 }
 
+.about-sections>h2{
+    text-align: center;
+}
+
 .about-span {
     width: 100%;
     display: flex;
