@@ -134,6 +134,9 @@ h3 {
     width: 50%;
 }
 
+.desc-description p{
+    padding-top: 150px;
+}
 /*  Instagram Section */
 .insta-section {
     display: flex;
@@ -265,8 +268,7 @@ footer>p {
 /*  Recipe Section */
 #recipe-cards{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
 }
 
@@ -280,6 +282,7 @@ footer>p {
     width: 300px;
     margin-left: 20px;
     margin-top: 20px;
+    cursor: grab;
 }
 
 .recipe-card > div{
@@ -288,26 +291,37 @@ footer>p {
     width: 100%;
     display: flex;
     align-items: center;
+    text-align: center;
+}
+
+.recipe-card > div:hover{
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .recipe-card h2{
     color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.recipe-card:active h2{
+    color:salmon;
 }
 
 #recipe-one{
-    background-image: url("/assets/images/recipes/pasta-recipe.png");
+    background-image: url("../images/recipes/pasta-recipe.png");
 }
 
 #recipe-two{
-    background-image: url("/assets/images/recipes/recipe-2.png");
+    background-image: url("../images/recipes/recipe-2.png");
 }
 
 #recipe-three{
-    background-image: url("/assets/images/recipes/recipe-3.png");
+    background-image: url("../images/recipes/recipe-3.png");
 }
 
 #recipe-four{
-    background-image: url("/assets/images/recipes/recipe-4.png");
+    background-image: url("../images/recipes/recipe-4.png");
 }
 
 @media only screen and (max-width: 800px) {
@@ -394,6 +408,10 @@ footer>p {
     .center{
         padding-top: 0;
         padding: 0 1rem;
+    }
+
+    .desc-description p{
+        padding-top: 0;
     }
 
 
