@@ -6,7 +6,7 @@ Welcome to my first milestone project for Code Institute. This website aims to t
 
 Users of this website will be able to see delicious recipes that are tailored to food items that the farm can offer. A recipe of the day will show the user what the people of farm people are cooking for the day.
 
-![Am-I-Responsive-Image](https://github.com/dazhaze/Milestone-Project-One/blob/main/assets/images/am-i-responsive.png?raw=true)
+![Am-I-Responsive-Image](https://github.com/dazhaze/Milestone-Project-One/blob/main/assets/images/redo-readme/Am-I-Responsive.png?raw=true)
 
 <h2>Validation Testing</h2>
 
