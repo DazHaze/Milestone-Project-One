@@ -66,21 +66,12 @@ I have manually tested this project by doing the following:
     * Index.html only returned errors for instagrams embed code. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Findex.html)
     * contact.html returned no errors. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Fcontact.html)
     * About.html returned no errors. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Fabout.html)
-    * Recipes.html returned no errors. [Results]()
+    * Recipes.html returned no errors. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Frecipes.html)
 
 ## Deployment
-This project was deployed using Code Institute's mock terminal for Heroku.
-
-* Steps for deployment:
-  * Fork or clone this repository
-  * Create new Heroku app
-  * Set the buildbacks to `Python` and `NodeJS` in that order
-  * Link the Heroku app to the repository
-  * Click on `Deploy`
+This project was deployed using Github pages which is a free hosting service that can be utilized directly from the settings in a Github repo.
 
 ## Credits
-* [Code Institute](https://codeinstitute.net/all-access-coding-challenge/?utm_term=code%20institute&utm_campaign=CI+-+IRL+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14304747355&hsa_grp=128775288209&hsa_ad=539453915484&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAiAv_KMBhAzEiwAs-rX1PXOCAky8yjljHzgvSnccpkyUOvNLVGMuzG11t86weTdFdPiTfNHHhoCFuwQAvD_BwE) for the deployment terminal and the formatting for this MarkDown document.
+* [Code Institute](https://codeinstitute.net/all-access-coding-challenge/?utm_term=code%20institute&utm_campaign=CI+-+IRL+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14304747355&hsa_grp=128775288209&hsa_ad=539453915484&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAiAv_KMBhAzEiwAs-rX1PXOCAky8yjljHzgvSnccpkyUOvNLVGMuzG11t86weTdFdPiTfNHHhoCFuwQAvD_BwE) This project was created for Code Institute's "Milestone One" project.
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Connect_Four) for details on Connect Four game.
-
-* [Geoffrey Mariette](https://medium.com/@geoffrey.mariette/crazy-connect4-with-python-146d384f4cfb) for article on Python Connect Four.
+* [PixaBay.com](https://pixabay.com/) For the beautiful royalty free stock photos that were used to create this website.
