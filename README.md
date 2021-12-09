@@ -36,76 +36,37 @@ This Website is created as a base for a fully functioning website.
 
 * The recipe page cards are sorted automatically for responsivness using css grid templates. This proved to be a powerful way of adding responsive grids without using multiple media queries!
 
-![Computer Thinking Animation](images/computer-thinking-animation.png)
+![Contact-Form](https://raw.githubusercontent.com/DazHaze/Milestone-Project-One/main/assets/images/redo-readme/contact-page.png)
 
-* Piece dropping animation. Without this it is hard for the user to see that they are playing connect four.
+----
 
-![Piece Dropping Animation](images/dropping-animation.png)
+* The conatct page brings you to a form where you can sign up for recipe ideas so that the farm can contact you with recipes every week. These recipes will be tailored to produce available to entice the customer to order produce.
+
 
 ### **Future Features**
 
-* Give the computer a more advanced decision making algorithm.
-* Create computer predictability so that the user can learn the computer move pattern.
-* Display board and pieces in a cleaner way.
-* Allow user to have choice of which piece they have.
-* Coin toss for who starts (Important because there are patterns where the user that is first always wins).
-
-## Data Model
-
-I decided to use a board class as my model. The game creates an instance of the board when the game starts.
-
-The board class stores the board, size and if the game is currently playing. The board also has moethpds to help play the game. Such as a `print_board` method to print out the current board. A `valid_drop` method to check if there is space in the chosen column and what row that space is. A `dropping_piece` method to create a print animation to drop the piece into the board.
+* Recipe cards at end of recipe page will bring the user to seperate full recipe pages.
+* Recipe cards and recipe pages are populated by one Json file.
+* Contact page can start a live chat with the couple(Should be feasable as traffic will only be local)
+* A better nav bar and hamburger menu for mobile.
 
 ## Testing
 
 I have manually tested this project by doing the following:
-* Passed the code through [PEP8](http://pep8online.com/checkresult) linter and confirmed there are no warnings or errors.
-* Given invalid inputes: strings when numbers are expected, out of bounds inputs, the same input twice.
-* Tested in both local and deployed terminals.
+* Opening the site hosted on github pages on a laptop, monitor, tablet and mobile device.
+* Resizing the site in responsive mode on Firefox and Google Chrome.
 
-## Bugs
 
-### **Solved Bugs**
-
-#### **Win conditions**
-* When creating the 'check_win' function I was getting out of bounds in array errors for some win conditions. I noticed this would be because to check
-if the user has won the conditions had row + 1, row + 2 and row + 3 ( with the same for columns). If the board position was `(5, 3)` then row +3 would cause the final value of 
-8 to be greater than the actual number of rows available to check. My first idea for a fix was just to add:
-```python
-    if (row + 3) <= 6:
-        # Check for wins
-```
-* I soon figured out that this does not work as some column win conditions would have a row element that would be out of bounds if 3 is added.
-```python
-    for c in range(self.col_count-3):
-            for r in range(self.row_count):
-                if (b[r][c] == piece and
-                    b[r][c+1] == piece and
-                        b[r][c+2] == piece and
-                        b[r][c+3] == piece):
-                    return True
-```
-* I finally settled for this approach after **many** different attempts at this problem. This method has 4 code blocks in the check win function. One for vertical win, one for horixontal win and two for the positive and negative diagonals.
-
-#### **Working backwards**
-* At the beginning of this project I found it difficult to work with the board as the first piece would be at say `(0,6)` instead of `(0,0)`. 
-This was solved by working with the board in the postion where `(0,0)` is the bottom and then flipping it to display to the user at the end.
-```python
-    def display_upsidedown_board(self):
-            """
-            Prints the upside down and flipped board array so pieces at 0,0
-            are at the bottom.
-            """
-            print(f'\n{np.flip(self.board, 0)}\n')
-```
-
-### **Remaining Bugs**
-
-* User can send an input when the computer is choosing and placing the piece. This does not break the game as the user choice is still sent and displayed. A fix could be some sort of await function after the user sends one input.
 
 ## Validator Testing
-* PEP8
-  * No errors returned from [PEP8online.com](PEP8online.com)
+* [W3C CSS Validator](https://www.w3.org/)
+  * No errors returned for the CSS in this project using the W3C CSS validator. [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+* [W3 HTML Validator](https://validator.w3.org/nu/)
+  * No errors relater to my code using the W3 HTML validator.
+    * Index.html only returned errors for instagrams embed code. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Findex.html)
+    * contact.html returned no errors. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Fcontact.html)
+    * About.html returned no errors. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Fabout.html)
+    * Recipes.html returned no errors. [Results]()
 
 ## Deployment
 This project was deployed using Code Institute's mock terminal for Heroku.
