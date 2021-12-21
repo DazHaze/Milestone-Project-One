@@ -24,7 +24,10 @@ h3 {
     font-style: italic;
     padding: 10px;
     text-align: center;
-    color: coral;
+    color: white;
+
+    width: 100%;
+    background-color: coral;
 }
 
 .image-descriptions>h2{
