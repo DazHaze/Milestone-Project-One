@@ -70,7 +70,8 @@ I have manually tested this project by doing the following:
 
 ----
 
-[!Lighthouse-Results](https://raw.githubusercontent.com/DazHaze/Milestone-Project-One/main/assets/images/accessibility-100.png)
+![Lighthouse-Results](https://raw.githubusercontent.com/DazHaze/Milestone-Project-One/main/assets/images/accessibility-100.png)
+  * Next the project was passed through the [Lighthouse](https://developers.google.com/web/tools/lighthouse) validator in the chrome dev tools. Here we can see that the website receives a %100 accessibility score which is important for websites today to have. Using this tool also allowed for updates to the websites accessibility while developing it as it shows areas that were missed when adding accessibility.
 
 ## Deployment
 This project was deployed using Github pages which is a free hosting service that can be utilized directly from the settings in a Github repo.
