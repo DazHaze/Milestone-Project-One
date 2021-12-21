@@ -59,6 +59,9 @@ I have manually tested this project by doing the following:
 
 
 ## Validator Testing
+
+NOTE: During validation it was found that instagrams own embed code does not pass validation so a choice was made to include the instagram post as an image enclosed in an 'a'.
+
 * [W3C CSS Validator](https://www.w3.org/)
   * No errors returned for the CSS in this project using the W3C CSS validator. [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 * [W3 HTML Validator](https://validator.w3.org/nu/)

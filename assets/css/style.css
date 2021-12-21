@@ -156,7 +156,15 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
+
+.insta-section img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
 
 /* Footer */
 footer {
@@ -310,7 +318,6 @@ footer>p {
     padding: 40px;
 }
 
-/* Recipe Cards */
 /*  Recipe Section */
 #recipe-cards{
     display:grid;
@@ -369,6 +376,8 @@ footer>p {
 #recipe-four{
     background-image: url("../images/recipes/recipe-4.png");
 }
+
+/* Media Queries */
 
 @media only screen and (max-width: 800px) {
     div:nth-of-type(2).about-span {
