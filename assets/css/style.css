@@ -22,9 +22,10 @@ h3 {
 
 .main-page-quote{
     font-style: italic;
-    padding: 10px;
     text-align: center;
     color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 
     width: 100%;
     background-color: coral;
@@ -297,6 +298,12 @@ footer>p {
 
 #rotd-ingredients{
     font-style: italic;
+    width: 100%;
+    background-color: coral;
+    color:white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 #rotd-method{
