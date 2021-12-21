@@ -68,6 +68,10 @@ I have manually tested this project by doing the following:
     * About.html returned no errors. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Fabout.html)
     * Recipes.html returned no errors. [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdazhaze.github.io%2FMilestone-Project-One%2Frecipes.html)
 
+----
+
+[!Lighthouse-Results](https://raw.githubusercontent.com/DazHaze/Milestone-Project-One/main/assets/images/accessibility-100.png)
+
 ## Deployment
 This project was deployed using Github pages which is a free hosting service that can be utilized directly from the settings in a Github repo.
 
